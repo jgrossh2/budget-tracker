@@ -27,10 +27,10 @@ console.log(event.target.errorCode);
 // This function will be executed if we attempt to submit a new budget and there's no internet connection
 function saveRecord(transactionCreate) {
     // open a new transaction with the database with read and write permissions 
-    const transaction = db.transaction(["budget_tracker"], 'readwrite');
+    const transaction = db.transaction(["change_budget"], 'readwrite');
   
     // access the object store for `budget_tracker`
-    const budgetObjectStore = transaction.objectStore('budget_tracker');
+    const budgetObjectStore = transaction.objectStore('change_budget');
   
     // add record to your store with add method
     budgetObjectStore.add(transactionCreate);
