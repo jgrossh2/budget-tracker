@@ -15,6 +15,7 @@ fetch("/api/transaction")
   });
 
 function populateTotal() {
+  console.log('before', transactions)
   // reduce transaction amounts to a single total value
   let total = transactions.reduce((total, t) => {
     console.log("check=====", transactions)
