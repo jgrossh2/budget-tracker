@@ -37,7 +37,7 @@ function saveRecord(record) {
   }
 function uploadBudget() {
   // open transaction on db
-  const transaction = db.transaction(['change+budget'], 'readwrite');
+  const transaction = db.transaction(['change_budget'], 'readwrite');
 
   // access your object store
   const budgetObjectStore = transaction.objectStore('change_budget');
