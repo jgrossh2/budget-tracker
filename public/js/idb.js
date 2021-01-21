@@ -63,7 +63,7 @@ getAll.onsuccess = function() {
         }
         // open one more transaction
         const transaction = db.transaction(['change_budget'], 'readwrite');
-        // access the new_pizza object store
+        // access the change_budget object store
         const budgetObjectStore = transaction.objectStore('change_budget');
         // clear all items in your store
         budgetObjectStore.clear();
