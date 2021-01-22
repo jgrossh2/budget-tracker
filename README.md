@@ -2,7 +2,7 @@
 
 ## Description
 
-This budget tracker is created in order to keep track of expenses. The user can enter the title of the expense, the amount, and then either subtract or add the expense to the total. This application also has the added feature of being able to access offline. The user can add in expenses while offline, and then once online the expenses will be registered in the account. The user also has a graph which shows the flow of the expenses.
+This budget tracker is created in order to keep track of expenses. The user can enter the title of the expense, the amount, and then either subtract or add the expense to the total. This application also has the added feature of being able to access offline. The user can add in expenses while offline, and then once online the expenses will be registered in the account. The user also is shown a graph which displays the flow of expenses based over time.
 
 ## Images 
 ![budget-tracker homepage](./public/images/budget.png) <br>
